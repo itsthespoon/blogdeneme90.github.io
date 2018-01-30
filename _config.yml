@@ -6,7 +6,13 @@ url: ""
 baseurl:
 google_analytics_key:
 newsletter_action: "//your-mailchimp-action-url.com"
-disqus_shortname: www-itsthespoon-github-io
+
+# Disqus Comments
+disqus:
+# Leave shortname blank to disable comments site-wide. 
+# Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: www-itsthespoon-github-io
+
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /logo_circle.png
